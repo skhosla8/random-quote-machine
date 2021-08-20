@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Random Quote Machine</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="quote-box">
+            <div id="quote-paragraph" class="text">
+                <i class="fas fa-quote-left" id="quote-icon"></i>
+                <span id="text"></span>
+            </div>
+            <div id="author-line" class="text">
+                - <span id="author"></span>
+            </div>
+            <div>
+                <button type="button" id="new-quote" class="btn">New quote</button>
+            </div>
+            <div>
+                <a id="tweet-quote" title="Tweet this quote!" href="http://twitter.com/intent/tweet" target="_blank">
+                    <button type="button" id="twitter-btn" class="btn"><i class="fab fa-twitter fa-lg"></i></button>
+                </a>
+            </div>
+            <span>
+                <a id="tumblr-quote" title="Post this quote on tumblr!" href="https://www.tumblr.com/share"
+                    target="_blank">
+                    <button type="button" id="tumblr-btn" class="btn"><i class="fab fa-tumblr fa-lg"></i></button>
+                </a>
+            </span>
+        </div>
+        <footer>
+            <p>by Sonali</p>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
